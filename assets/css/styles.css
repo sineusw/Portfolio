@@ -38,10 +38,9 @@ li a {
   text-decoration: none;
 }
 
-/* .about {
-  float: left;
-  align: right;
-} */
+.aboutText {
+  width: 37%;
+}
 
 li a:hover {
   background-color: #111;
@@ -49,4 +48,21 @@ li a:hover {
 
 strong {
   color: white;
+}
+
+.contacts {
+  color: white;
+}
+
+/* unvisited link */
+.contacts a:link {
+  color: white;
+}
+/* visited link */
+.contacts a:visited {
+  color: rgb(29, 240, 29);
+}
+/* mouse over link */
+.contacts a:hover {
+  color: red;
 }
