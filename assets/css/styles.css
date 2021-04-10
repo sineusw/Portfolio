@@ -1,15 +1,15 @@
-
-  body {
+/* this is my background image */
+body {
     color: white;
     background-image: url('https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2850&q=80');
     background-size: 100% 100%;
   }
-
+/* this is to size my business photo */
 .photo{
   height: auto;
   width: 350px;
 }
-
+/* this is my work photo */
 .workphoto{
   height: auto;
   width: 500px;
@@ -25,11 +25,11 @@ ul {
   padding: 0;
   overflow: hidden;
 }
-
+/* this is telling the navbar to stay left on the website */
 li {
   float: left;
 }
-
+/* this the details of the look of the navbar */
 li a {
   display: block;
   color: white;
@@ -37,32 +37,45 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
+/* this is so the text stays a certain width */
 .aboutText {
   width: 37%;
 }
-
+/* this is The Background Color Change When You Hover Over The Navbar */
 li a:hover {
   background-color: #111;
 }
 
-strong {
-  color: white;
-}
-
-.contacts {
-  color: white;
-}
-
-/* unvisited link */
+/* this is to change the color of the linkedin link */
 .contacts a:link {
   color: white;
 }
-/* visited link */
+/* this is to change the color of the contacts link when you hover over it */
 .contacts a:visited {
   color: rgb(29, 240, 29);
 }
-/* mouse over link */
+
+strong :visited {
+  color: rgb(29, 240, 29);
+}
+
+/* this is to change the color of the contacts link when you click on it */
 .contacts a:hover {
   color: red;
+}
+/* this is resizing of the web screen */
+@media only screen and (max-width: 700px) {
+*{
+  text-align: center;
+  width: 100vh;
+}
+.photo{
+  height: auto;
+  width: 350px;
+}
+.workphoto{
+  height: auto;
+  width: 300px;
+}
+
 }
